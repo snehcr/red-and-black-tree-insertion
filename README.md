@@ -1,0 +1,2 @@
+# red and black tree insertion
+ In AVL tree insertion, we used rotation as a tool to do balancing after insertion caused imbalance. In Red-Black tree, we use two tools to do balancing. 1) Recoloring  2) Rotation We try recoloring first, if recoloring doesn’t work, then we go for rotation. Following is detailed algorithm. The algorithms has mainly two cases depending upon the color of uncle. If uncle is red, we do recoloring. If uncle is black, we do rotations and/or recoloring. Color of a NULL node is considered as BLACK.
